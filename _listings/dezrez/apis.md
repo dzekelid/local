@@ -7,11 +7,41 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: Local
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/local/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Save or update an Local Authority Description
+  x-api-slug: apilocalauthoritydescriptionsave-post
+  description: Save or update an local authority description.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/local/master/_listings/dezrez/apilocalauthoritydescriptionsave-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get an Local Authority Description by its Id
+  x-api-slug: apilocalauthoritydescriptionid-get
+  description: Get an local authority description by its id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/local/master/_listings/dezrez/apilocalauthoritydescriptionid-get-openapi.md
+- name: Dezrez.Rezi.Client.Api - Delete an Local Authority Description by its Id
+  x-api-slug: apilocalauthoritydescriptionid-delete
+  description: Delete an local authority description by its id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/local/master/_listings/dezrez/apilocalauthoritydescriptionid-delete-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

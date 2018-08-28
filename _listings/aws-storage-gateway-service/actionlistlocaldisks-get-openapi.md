@@ -1,14 +1,11 @@
 ---
 swagger: "2.0"
-x-collection-name: NewsWhip
+x-collection-name: AWS Storage Gateway Service
 x-complete: 0
 info:
-  title: News Whip API Local
-  description: Pull list of localities.
-  termsOfService: http://www.newswhip.com/PrivacyAndLegal
-  version: v1
-host: api.newswhip.com
-basePath: v1/
+  title: AWS Storage Gateway Service API List Local Disks
+  version: 1.0.0
+  description: Returns a list of the gateway's local disks.
 schemes:
 - http
 produces:
@@ -16,22 +13,22 @@ produces:
 consumes:
 - application/json
 paths:
-  local/:
+  /?Action=ListLocalDisks:
     get:
-      summary: Local
-      description: Pull list of localities.
-      operationId: getLocal
-      x-api-path-slug: local-get
+      summary: List Local Disks
+      description: Returns a list of the gateway's local disks.
+      operationId: listLocalDisks
+      x-api-path-slug: actionlistlocaldisks-get
       parameters:
       - in: query
-        name: key
-        description: API Key
+        name: GatewayARN
+        description: The Amazon Resource Name (ARN) of the gateway
+        type: string
       responses:
         200:
           description: OK
       tags:
-      - News
-      - Local
+      - Local Disks
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
